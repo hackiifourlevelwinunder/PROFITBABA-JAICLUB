@@ -12,7 +12,6 @@ body {
   background: linear-gradient(180deg, #000000, #0a0a0a);
   color: #fff;
   text-align: center;
-  cursor: pointer;
 }
 
 .container {
@@ -46,6 +45,7 @@ h1 {
   color: #00c3ff;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0,195,255,0.5);
+  cursor: pointer;
 }
 
 /* Trust Box */
@@ -83,6 +83,7 @@ h1 {
   font-size: 16px;
   box-shadow: 0 0 20px rgba(0,123,255,0.6);
   animation: pulse 1.5s infinite;
+  cursor: pointer;
 }
 
 @keyframes pulse {
@@ -124,10 +125,9 @@ src="https://www.facebook.com/tr?id=1303835945001366&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 
 <script>
-// 🔥 Only click redirect (no auto redirect)
-document.addEventListener("click", function(){
+function goTelegram(){
   window.location.href = "https://t.me/+sB-kafmfC-M1OGE1";
-});
+}
 </script>
 
 </head>
@@ -139,7 +139,7 @@ document.addEventListener("click", function(){
 
 <h1>𝗣𝗿𝗼𝗳𝗶𝘁 𝗕𝗔𝗕𝗔 - <span class="highlight">𝗝𝗮𝗶 𝗖𝗹𝘂𝗯</span></h1>
 
-<div class="top-btn">
+<div class="top-btn" onclick="goTelegram()">
 🚀 JOIN TELEGRAM NOW
 </div>
 
@@ -157,11 +157,11 @@ Limited seats available — don’t miss out ⚡
 
 <img class="telegram-logo" src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png">
 
-<div class="btn">
+<div class="btn" onclick="goTelegram()">
 🚀 JOIN TELEGRAM NOW
 </div>
 
-<p class="footer">Click anywhere to continue...</p>
+<p class="footer">Tap the button to continue</p>
 
 </div>
 
